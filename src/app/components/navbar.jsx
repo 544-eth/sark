@@ -10,7 +10,7 @@ const Navbar = () => {
           {/* LOGO SECTION */}
           <div >
             <Link href='/' className=' flex'>
-              <Image src='/images/logo1.png' alt='logo' width={50} height={50} className=' rounded-full'/>
+              {/* <Image src='/images/logo1.png' alt='logo' width={50} height={50} className=' rounded-full'/> */}
               <h1 className={styles.h1}>Sarky</h1>
             </Link>
           </div>

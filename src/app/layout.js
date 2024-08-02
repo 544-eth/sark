@@ -1,8 +1,8 @@
 import Navbar from "./components/navbar";
 import "./globals.css";
-import { Signika_Negative } from "next/font/google";
+import { Roboto_Flex } from "next/font/google";
 
-const roboto = Signika_Negative({ subsets: ["latin"] });
+const roboto = Roboto_Flex({ subsets: ["latin"] });
 
 export const metadata = {
   title: "From Figma to Next JS",
