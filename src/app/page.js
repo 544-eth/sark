@@ -1,12 +1,14 @@
 import React from "react";
 import { FaArrowTurnUp } from "react-icons/fa6";
 import { FaCheck } from "react-icons/fa";
+import DesktopOnly from "./components/mobile";
 
 
 
 export default function Home() {
   return (
     <main className=" bg-gradient-to-tl from-green-50 to-blue-50  flex items-center justify-between min-h-screen p-5">
+    <DesktopOnly/>
     {/* FIRST SECTION */}
       <div className=" flex flex-col gap-5 items-start w-[50%] p-10">
         <h2 className=" max-w-3xl text-6xl font-extrabold">
