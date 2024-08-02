@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+.h1 {
+    font-size: 30px;
+    font-family: "Playwrite BE VLG", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    }
+  
+  
+
 
 .saas {
         display: flex;

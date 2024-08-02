@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import styles from './sarklogo.module.css'
 
 const Navbar = () => {
   return (
@@ -10,7 +9,7 @@ const Navbar = () => {
           <div >
             <Link href='/' className=' flex'>
               {/* <Image src='/images/logo1.png' alt='logo' width={50} height={50} className=' rounded-full'/> */}
-              <h1 className={styles.h1}>Sarky</h1>
+              <h1 className='h1'>Sarky</h1>
             </Link>
           </div>
           {/* NAVBAR SECTION */}
