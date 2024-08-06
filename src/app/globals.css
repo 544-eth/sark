@@ -49,6 +49,15 @@
     transform-origin: top left right;
 }
 
+.curved-line::before {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 12px;
+    border-top: 4px solid white;
+    border-radius: 0 10px 10px 0;
+  }
+
 .rank {
     width: 100px;
     color: blue;
