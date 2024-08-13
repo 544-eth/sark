@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <div className=' bg-blue-50'>
+    <div className='bg-blue-50'>
         <div className=' flex items-center justify-between m-auto w-[92%] text-black py-3 '>
           {/* LOGO SECTION */}
           <div >
@@ -13,7 +13,7 @@ const Navbar = () => {
             </Link>
           </div>
           {/* NAVBAR SECTION */}
-          <div className=' flex items-center gap-20'>
+          <div className=' hidden lg:flex items-center gap-20'>
             <div className=' flex gap-5'>
               <Link href='/' className='text-[18px]' >Demo</Link>
               <Link href='/' className='text-[18px]' >About</Link>

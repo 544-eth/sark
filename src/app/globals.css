@@ -4,7 +4,7 @@
 
 .h1 {
     font-size: 30px;
-    font-family: "Playwrite BE VLG", cursive;
+    font-family: "Playwrite BE VLG";
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
@@ -69,4 +69,36 @@
     height: 10px;
     margin: 2px 0;
     background-color: #0a63fd; /* Tailwind's gray-700 */
+}
+
+@media screen and (min-width: 280px) {
+    /* Styles for smaller mobile devices */
+    .h1 {
+      font-size: 14px;
+      line-height: 1.4;
+      padding: 3px;
+    }@media screen  {
+    
+}
+
+.saas {
+    font-size: 6px;
+    font-weight: 350;
+}
+
+.askimo {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.parallelogram {
+    width: 15px;
+    height: 2px;
+}
+
+.parallelogram::before{
+    width: 15px;
+    height: 2px;
+}
+
 }
