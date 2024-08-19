@@ -84,7 +84,7 @@ export default function Home() {
                 <p className=" text-[12px] lg:text-xl font-bold">Yearly Growth</p>
               </div>
           </div>
-          <div className=" bg-white place-self-end w-fit md:w-[15vw] md:h-[30vh] lg:w-[19vw] lg:h-[40vh] border shadow-2xl p-2 lg:p-5 flex flex-col items-start rounded-md">
+          <div className=" bg-white place-self-end w-fit md:w-[15vw] md:h-[30vh] lg:w-[19vw] lg:h-[40vh] border shadow-2xl p-2 lg:p-5 flex flex-col lg:items-start rounded-md">
             <div className=" flex flex-col gap-1 md:gap-2 lg:gap-3">
               <h2 className=" font-bold text-[12px] ">Take Notes</h2> 
               <div className=" bg-gray-300 w-[55%] h-1 lg:h-2 rounded-full"></div>
@@ -143,7 +143,7 @@ export default function Home() {
             </div> 
             <div className=" flex items-end justify-end">
               <div className=" overflow-hidden">
-                <svg class="lg:w-64 lg:h-32 w-10 h-10 md:w-28 md:h-28  -rotate-[46deg]" viewBox="0 0 100 50">
+                <svg className="lg:w-64 lg:h-32 w-10 h-10 md:w-28 md:h-28  -rotate-[46deg]" viewBox="0 0 100 50">
                     <path d="M0 50 Q50 0 100 50" stroke="gold" stroke-width="2" fill="transparent"/>
                 </svg>
               </div>
@@ -316,97 +316,97 @@ export default function Home() {
       </div>
 
       {/* FIFTH SECTION */}
-      <div className=" flex flow-row items-center justify-around bg-white w-full h-screen">
+      <div className=" flex flex-col lg:flex-row p-5 lg:p-0 items-center justify-around bg-white w-full h-screen">
         <div className=" w flex items-center justify-center relative">
           <Image src='/images/person.png' width={500} height={500} alt="A lady working" className=" rounded-lg" />
           
-            <div className=" bg-slate-100 absolute flex items-center justify-center bottom-8 right-8 w-28 h-28">
+            <div className=" bg-slate-100 absolute flex items-center justify-center bottom-4 right-4 lg:bottom-8 w-[65px] lg:right-8 lg:w-28 lg:h-28">
               <div className=" flex flex-col items-center gap-1">
-                <div className=" flex items-center gap-4">
-                  <h2 className=" font-extrabold text-[27px]">27%</h2>
+                <div className=" flex items-center gap-4 text-[14px] lg:text-[27px]">
+                  <h2 className=" font-extrabold ">27%</h2>
                   <FaArrowTurnUp className=" text-green-500 "/>
                 </div>
-                <h3 className=" text-sm flex px-4 text-center">Yearly Tax Saving</h3>
+                <h3 className=" md:text-sm flex px-4 text-center text-[8px] lg:text-[17px]">Yearly Tax Saving</h3>
               </div>
             </div>  
           
         </div>
-        <div className=" flex flex-col max-w-lg">
+        <div className=" flex flex-col  max-w-lg">
           <div className=" flex flex-col gap-5">
-            <h2 className=" font-bold text-3xl">Meet tax expert online & solve tax problems fast</h2>
+            <h2 className=" font-bold text-2xl lg:text-3xl">Meet tax expert online & solve tax problems fast</h2>
             <h3 className=" font-bold">Tax specialists assist in preparing quarterly and annual tax provision and performing tax accounting duties.</h3>
-            <p>Tax consultants help clients with a variety of tax-related issues. Mainly, they make sure clients comply with tax rule regulations, they also help individuals and businesses pay what they owe.</p>
+            <p className=" text-[13px] lg:text-[17px]">Tax consultants help clients with a variety of tax-related issues. Mainly, they make sure clients comply with tax rule regulations, they also help individuals and businesses pay what they owe.</p>
           </div>
         </div>
       </div>
 
       {/* SIXTH SECTION */}
-      <div className=" flex items-center justify-between px-20 m-auto w-[100%] h-[70vh]">
-        <div className=" flex flex-col gap-3 max-w-md">
+      <div className=" flex lg:flex-row flex-col items-center justify-between py-5 lg:px-20 m-auto w-[100%] h-screen">
+        <div className=" flex flex-col gap-3 w-[90%] lg:max-w-md">
           <div className="">
-            <h2 className=" text-3xl font-extrabold">Reduce your risk of errors and missed deadlines</h2>
+            <h2 className=" text-[17px] lg:text-3xl font-extrabold">Reduce your risk of errors and missed deadlines</h2>
           </div>
           <div>
-            <p>The profile of tax has become much visible not only from an investor and board perspective but also from a tax authority and public perspective also needs to take control of risk.</p>
+            <p className=" text-[12px] lg:text-[17px]">The profile of tax has become much visible not only from an investor and board perspective but also from a tax authority and public perspective also needs to take control of risk.</p>
           </div>
           <div>
-              <button className=" bg-orange-600 py-2 px-5 rounded text-white font-bold">Book A Call</button>
+              <button className=" bg-orange-600 px-3 py-1 lg:py-2 lg:px-5 rounded text-white font-bold text-[12px] lg:text-[17px]">Book A Call</button>
           </div>
         </div>
 
-        <div className=" bg-white w-[27vw] h-[60vh]">
+        <div className=" bg-white w-[70%] lg:w-[27vw] h-[60vh]">
           <div className=" bg-black h-[10vh] flex items-center justify-between px-2">
             <div className="  text-white">
-              <h3>Taking control of risk</h3>
+              <h3 className=" text-[14px] lg:text-[17px]">Taking control of risk</h3>
             </div>
             <div className=" flex gap-1">
-              <div className=" w-3 h-3 bg-red-600 rounded-full"></div>
-              <div className=" w-3 h-3 bg-yellow-600 rounded-full"></div>
-              <div className=" w-3 h-3 bg-blue-600 rounded-full "></div>
+              <div className=" w-1 h-1 lg:w-3 lg:h-3 bg-red-600 rounded-full"></div>
+              <div className=" w-1 h-1 lg:w-3 lg:h-3 bg-yellow-600 rounded-full"></div>
+              <div className=" w-1 h-1 lg:w-3 lg:h-3 bg-blue-600 rounded-full "></div>
             </div>
           </div>
 
-          <div className=" flex flex-col  px-5">
-            <div className=" flex items-center justify-between py-5">
+          <div className=" flex flex-col px-5">
+            <div className=" flex items-center justify-between text-[13px] lg:text-[18px] py-5">
               <h3>CSP Score</h3>
               <p>view Details</p>
             </div>
-              <div className=" flex flex-row relative items-center justify-center gap-3">
-                  <div className=" w-3 h-[180px] rounded-full bg-gray-300 relative">
-                    <div className=" w-3 bg-blue-600 bottom-0 h-[100px] rounded-full absolute"></div>
+              <div className=" flex flex-row relative items-center lg:justify-center justify-around lg:gap-3">
+                  <div className=" w-1 lg:w-3 h-[180px] rounded-full bg-gray-200 relative">
+                    <div className=" w-1 lg:w-3 bg-blue-600 bottom-0 h-[100px] rounded-full absolute"></div>
                   </div>
-                  <div className=" w-3 h-[180px] rounded-full bg-gray-200 relative">
-                    <div className=" w-3 bg-yellow-400 bottom-0 h-[50px] rounded-full absolute"></div>
+                  <div className=" w-1 lg:w-3 h-[180px] rounded-full bg-gray-200 relative">
+                    <div className=" w-1 lg:w-3 bg-yellow-400 bottom-0 h-[50px] rounded-full absolute"></div>
                   </div>
-                  <div className=" w-3 h-[180px] rounded-full bg-gray-200 relative">
-                    <div className=" w-3 bg-red-600 bottom-0 h-[20px] rounded-full absolute"></div>
+                  <div className=" w-1 lg:w-3 h-[180px] rounded-full bg-gray-200 relative">
+                    <div className=" w-1 lg:w-3 bg-red-600 bottom-0 h-[20px] rounded-full absolute"></div>
                   </div>
-                  <div className=" w-3 h-[180px] rounded-full bg-gray-200 relative">
-                    <div className=" w-3 bg-blue-600 bottom-0 h-[70px] rounded-full absolute"></div>
+                  <div className=" w-1 lg:w-3 h-[180px] rounded-full bg-gray-200 relative">
+                    <div className=" w-1 lg:w-3 bg-blue-600 bottom-0 h-[70px] rounded-full absolute"></div>
                   </div>
-                  <div className=" w-3 h-[180px] rounded-full bg-gray-200 relative">
-                    <div className=" w-3 bg-yellow-400 bottom-0 h-[50px] rounded-full absolute"></div>
+                  <div className=" w-1 lg:w-3 h-[180px] rounded-full bg-gray-200 relative">
+                    <div className=" w-1 lg:w-3 bg-yellow-400 bottom-0 h-[50px] rounded-full absolute"></div>
                   </div>
-                  <div className=" w-3 h-[180px] rounded-full bg-gray-200 relative">
-                    <div className=" w-3 bg-red-600 bottom-0 h-[40px] rounded-full absolute"></div>
+                  <div className=" w-1 lg:w-3 h-[180px] rounded-full bg-gray-200 relative">
+                    <div className=" w-1 lg:w-3 bg-red-600 bottom-0 h-[40px] rounded-full absolute"></div>
                   </div>
-                  <div className=" w-3 h-[180px] rounded-full bg-gray-200 relative">
-                    <div className=" w-3 bg-blue-600 bottom-0 h-[60px] rounded-full absolute"></div>
+                  <div className=" w-1 lg:w-3 h-[180px] rounded-full bg-gray-200 relative">
+                    <div className=" w-1 lg:w-3 bg-blue-600 bottom-0 h-[60px] rounded-full absolute"></div>
                   </div>
-                  <div className=" w-3 h-[180px] rounded-full bg-gray-200 relative">
-                    <div className=" w-3 bg-yellow-400 bottom-0 h-[90px] rounded-full absolute"></div>
+                  <div className=" w-1 lg:w-3 h-[180px] rounded-full bg-gray-200 relative">
+                    <div className=" w-1 lg:w-3 bg-yellow-400 bottom-0 h-[90px] rounded-full absolute"></div>
                   </div>
-                  <div className=" w-3 h-[180px] rounded-full bg-gray-200 relative">
-                    <div className=" w-3 bg-red-600 bottom-0 h-[50px] rounded-full absolute"></div>
+                  <div className=" w-1 lg:w-3 h-[180px] rounded-full bg-gray-200 relative">
+                    <div className=" w-1 lg:w-3 bg-red-600 bottom-0 h-[50px] rounded-full absolute"></div>
                   </div>
-                  <div className=" w-3 h-[180px] rounded-full bg-gray-200 relative">
-                    <div className=" w-3 bg-blue-600 bottom-0 h-[100px] rounded-full absolute"></div>
+                  <div className=" w-1 lg:w-3 h-[180px] rounded-full bg-gray-200 relative">
+                    <div className=" w-1 lg:w-3 bg-blue-600 bottom-0 h-[100px] rounded-full absolute"></div>
                   </div>
-                  <div className=" w-3 h-[180px] rounded-full bg-gray-200 relative">
-                    <div className=" w-3 bg-yellow-400 bottom-0 h-[70px] rounded-full absolute"></div>
+                  <div className=" w-1 lg:w-3 h-[180px] rounded-full bg-gray-200 relative">
+                    <div className=" w-1 lg:w-3 bg-yellow-400 bottom-0 h-[70px] rounded-full absolute"></div>
                   </div>
-                  <div className=" w-3 h-[180px] rounded-full bg-gray-200 relative">
-                    <div className=" w-3 bg-red-600 bottom-0 h-[50px] rounded-full absolute"></div>
+                  <div className=" w-1 lg:w-3 h-[180px] rounded-full bg-gray-200 relative">
+                    <div className=" w-1 lg:w-3 bg-red-600 bottom-0 h-[50px] rounded-full absolute"></div>
                   </div>
               </div>
             <div className=" flex justify-around items-center">
@@ -439,21 +439,21 @@ export default function Home() {
 
       {/* seventh section */}
       
-        <div className=" relative bg-gray-950 h-screen w-[100%] flex ">
-          <div className=" bg-blue-500 relative left-20 bottom-32 rounded-full w-72 h-28 place-self-end z-10 "></div>
-          <div className=" bg-red-500 relative left-20 bottom-[20px] rounded-full w-72 h-28 place-self-end z-10 "></div>
-          <div className=" absolute w-[100%] backdrop-blur blur-3xl h-screen z-20"></div>
-          <div className=" flex flex-col items-center gap-10 justify-center absolute z-30 right-0 left-0 top-0 bottom-0">
+        <div className=" relative bg-gray-950 lg:h-screen h-[160vh] w-[100%] flex ">
+          <div className=" bg-blue-600 relative left-20 bottom-20 lg:bottom-32 rounded-full lg:w-72 lg:h-28 w-28 h-14 lg:place-self-end place-self-center z-10 "></div>
+          <div className=" bg-red-600 relative left-20 bottom-44 lg:bottom-[20px] rounded-full lg:w-72 lg:h-28 w-20 h-14 lg:place-self-end place-self-center z-10 "></div>
+          <div className=" absolute w-[100%] backdrop-blur blur-3xl lg:h-screen h-[160vh] z-20"></div>
+          <div className=" flex flex-col items-center gap-5 lg:gap-10 justify-center absolute z-30 right-0 left-0 top-0 bottom-0">
               <div>
-                <p className=" text-gray-400">2,157 people have said how good Rareblocks</p>
+                <p className=" text-gray-400 text-[9px] lg:text-[15px]">2,157 people have said how good Rareblocks</p>
               </div>
               <div className=" font-extrabold text-white text-3xl">
-                <h3>Our happy clients say about us</h3>
+                <h3 className=" text-[16px] lg:text-2xl">Our happy clients say about us</h3>
               </div>
-              <div className=" flex flex-row items-center gap-28">
-                <div className=" bg-white w-72 h-72">
+              <div className=" flex lg:flex-row flex-col  items-center gap-5 lg:gap-28">
+                <div className=" bg-white w-[70%] lg:w-72 lg:h-72 rounded-md">
                   <div className=" flex flex-col gap-3 p-4">
-                    <div className=" flex gap-1 text-[gold]">
+                    <div className=" flex gap-1 text-[gold] lg:text-[17px] text-[10px]">
                         <FaStar/>
                         <FaStar/>
                         <FaStar/>
@@ -461,20 +461,20 @@ export default function Home() {
                         <FaStar/>
                     </div>
                     <div className=" text-black py-5">
-                      <p>You made it so simple, My new site is so much faster and easier to work with than my old site. i just choose the page, make the change</p>
+                      <p className=" text-[12px] lg:text-[17px] ">You made it so simple, My new site is so much faster and easier to work with than my old site. i just choose the page, make the change</p>
                     </div>
                     <div className=" flex gap-5">
-                      <Image src='/images/pic.jpg' width={50} height={50} alt="Founder" className=" rounded-full" />
+                      <Image src='/images/pic.jpg' width={50} height={50} alt="Founder" className=" rounded-full  w-8 h-8" />
                       <div className=" flex flex-col">
-                        <h3 className=" font-extrabold">Leslie Alexander</h3>
-                        <p className=" text-sm">Founder</p>
+                        <h3 className=" font-extrabold lg:text-[17px] text-[12px]">Leslie Alexander</h3>
+                        <p className=" lg:text-sm text-[12px]">Founder</p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className=" bg-white w-72 h-72">
+                <div className=" bg-white w-[70%] lg:w-72 lg:h-72 rounded-md">
                   <div className=" flex flex-col gap-3 p-4">
-                      <div className=" flex gap-1 text-[gold]">
+                      <div className=" flex gap-1 text-[gold] lg:text-[17px] text-[10px]">
                           <FaStar/>
                           <FaStar/>
                           <FaStar/>
@@ -482,21 +482,21 @@ export default function Home() {
                           <FaStar/>
                       </div>
                       <div className=" text-black py-8">
-                        <p>Simply the best. Better than all the rest, I&lsquo;d recommend this product to beginners and advanced users</p>
+                        <p className=" text-[12px] lg:text-[17px] ">Simply the best. Better than all the rest, I&lsquo;d recommend this product to beginners and advanced users</p>
                       </div>
                       <div className=" flex gap-5">
-                        <Image src='/images/logo1.png' width={50} height={50} alt="Founder" className=" rounded-full" />
+                        <Image src='/images/logo1.png' width={50} height={50} alt="Founder" className=" rounded-full  w-8 h-8" />
                         
                         <div className=" flex flex-col">
-                          <h3 className=" font-extrabold">Jenny Wilson</h3>
-                          <p className=" text-sm">Chief Marketing Office</p>
+                          <h3 className=" font-extrabold text-[12px] lg:text-[17px]">Jenny Wilson</h3>
+                          <p className=" lg:text-sm text-[12px]">Chief Marketing Office</p>
                         </div>
                       </div>
                     </div>
                 </div>
-                <div className=" bg-white w-72 h-72">
+                <div className=" bg-white w-[70%] lg:w-72 lg:h-72 rounded-md">
                 <div className=" flex flex-col gap-3 p-4">
-                    <div className=" flex gap-1 text-[gold]">
+                    <div className=" flex gap-1 text-[gold] lg:text-[17px] text-[10px]">
                         <FaStar/>
                         <FaStar/>
                         <FaStar/>
@@ -504,19 +504,19 @@ export default function Home() {
                         <FaStar/>
                     </div>
                     <div className=" text-black py-5">
-                      <p>I cannot believe that I got a brand new landing page after getting Omega, it was super easy to edit and faster and easier to work</p>
+                      <p className=" text-[12px] lg:text-[17px]">I cannot believe that I got a brand new landing page after getting Omega, it was super easy to edit and faster and easier to work</p>
                     </div>
                     <div className=" flex gap-5">
-                      <Image src='/images/pic.jpg' width={50} height={50} alt="Founder" className=" rounded-full" />
+                      <Image src='/images/pic.jpg' width={50} height={50} alt="Founder" className=" w-8 h-8  rounded-full" />
                       <div className=" flex flex-col">
-                        <h3 className=" font-extrabold">Jason Jones</h3>
-                        <p className=" text-sm">Co-Founder</p>
+                        <h3 className=" font-extrabold lg:text-[17px] text-[12px]">Jason Jones</h3>
+                        <p className=" lg:text-sm text-[12px]">Co-Founder</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className=" border-b border-white">
+              <div className=" border-b border-white ">
                 <button className=" text-white">Check all 2,157 reviews</button>
               </div>
             </div>
@@ -524,22 +524,22 @@ export default function Home() {
 
         {/*  Eight section  */}
 
-        <div className=" bg-white h-screen w-[100%] flex flex-col items-center justify-center">
-          <div className=" flex flex-col items-center justify-center gap-10">
-            <div className=" flex flex-col items-center justify-center gap-10">
-              <h3 className=" text-3xl font-extrabold">Read our blog</h3>
-              <p>With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
+        <div className=" bg-white lg:h-screen h-[130vh] w-[100%] flex flex-col items-center justify-center">
+          <div className=" flex flex-col items-center justify-center px-2 lg:px-4 gap-10">
+            <div className=" flex flex-col items-center justify-center  lg:gap-10">
+              <h3 className=" text-3xl font-extrabold text-[15px] lg:text-2xl ">Read our blog</h3>
+              <p className=" text-[13px] lg:text-[17px]">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
             </div>
-            <div className=" flex flex-row gap-5">
+            <div className=" flex lg:flex-row flex-col gap-5">
                 <div className=" flex flex-col gap-5">
                     <Image src='/images/image6.png' alt="" width={300} height={300} className=" w-fit h-full rounded-md"/>
                     <date> Fri Aug 09 2024 </date>
-                    <h3 className=" font-extrabold text-2xl max-w-lg">A Holiday Tradition: Tax Extenders Slated to Expire at End of 2021.</h3>
+                    <h3 className=" font-extrabold lg:text-2xl text-[16px] max-w-lg">A Holiday Tradition: Tax Extenders Slated to Expire at End of 2021.</h3>
                 </div>
                 <div className=" flex flex-col gap-5">
                     <Image src='/images/cine4.png' alt="" width={300} height={300} className=" w-fit h-full rounded-md"/>
                     <date> Mon Jan 19 2020 </date>
-                    <h3 className=" font-extrabold text-2xl max-w-lg">What Do Global Minimum Tax Rules Mean for Corporate Tax Policies?</h3>
+                    <h3 className=" font-extrabold lg:text-2xl text-[16px] max-w-lg">What Do Global Minimum Tax Rules Mean for Corporate Tax Policies?</h3>
                 </div>
             </div>
           </div>
