@@ -84,7 +84,7 @@ export default function Home() {
                 <p className=" text-[12px] lg:text-xl font-bold">Yearly Growth</p>
               </div>
           </div>
-          <div className=" bg-white place-self-end w-fit md:w-[15vw] md:h-[30vh] lg:w-[19vw] lg:h-[40vh] border shadow-2xl p-2 lg:p-5 flex flex-col lg:items-start rounded-md">
+          <div className=" bg-white place-self-end  w-fit md:w-[15vw] md:h-[30vh] lg:w-[19vw] lg:h-[40vh] border shadow-2xl p-2 lg:p-5 flex flex-col lg:flex lg:place-self-start rounded-md">
             <div className=" flex flex-col gap-1 md:gap-2 lg:gap-3">
               <h2 className=" font-bold text-[12px] ">Take Notes</h2> 
               <div className=" bg-gray-300 w-[55%] h-1 lg:h-2 rounded-full"></div>
@@ -123,28 +123,28 @@ export default function Home() {
             <div className="">
               <div className=" overflow-hidden">
                 <svg className="lg:w-64 lg:h-32 w-10 h-10 md:w-28 md:h-28 rotate-[137deg]" viewBox="0 0 100 50">
-                    <path d="M0 50 Q50 0 100 50" stroke="green" stroke-width="2" fill="transparent"/>
+                    <path d="M0 50 Q50 0 100 50" stroke="green" strokeWidth="2" fill="transparent"/>
                 </svg>
               </div>
             </div>
             <div className=" flex flex-row relative items-center justify-around py-[40px]">
-                <div className=" flex flex-col items-center justify-center  ">
+                <div className=" flex flex-col items-center justify-center lg:gap-8  ">
                   <h2 className="text-white lg:text-6xl text-[14px] font-extrabold">110+</h2>
-                  <h2 className=" max-w-[250px] text-center text-[12px] text-white ">Automation templates for creating your campaigns quickly</h2> 
+                  <h2 className=" max-w-[250px] text-center text-[12px] lg:text-[20px]  text-white ">Automation templates for creating your campaigns quickly</h2> 
                 </div>
-                <div className=" flex flex-col items-center justify-center ">
+                <div className=" flex flex-col items-center justify-center lg:gap-8 ">
                   <h2 className="text-white lg:text-6xl text-[14px] font-extrabold">4M</h2>
-                  <h2 className=" max-w-[250px] text-center text-[12px] text-white ">Automation templates for creating your campaigns quickly</h2> 
+                  <h2 className=" max-w-[250px] text-center text-[12px] lg:text-[20px]  text-white ">Automation templates for creating your campaigns quickly</h2> 
                 </div>
-                <div className=" flex flex-col items-center justify-center ">
+                <div className=" flex flex-col items-center justify-center lg:gap-8 ">
                   <h2 className="text-white lg:text-6xl text-[14px] font-extrabold">99.99%</h2>
-                  <h2 className=" max-w-[250px] text-center text-[12px] text-white ">Automation templates for creating your campaigns quickly</h2> 
+                  <h2 className=" max-w-[250px] text-center text-[12px] lg:text-[20px]  text-white ">Automation templates for creating your campaigns quickly</h2> 
                 </div>
             </div> 
             <div className=" flex items-end justify-end">
               <div className=" overflow-hidden">
                 <svg className="lg:w-64 lg:h-32 w-10 h-10 md:w-28 md:h-28  -rotate-[46deg]" viewBox="0 0 100 50">
-                    <path d="M0 50 Q50 0 100 50" stroke="gold" stroke-width="2" fill="transparent"/>
+                    <path d="M0 50 Q50 0 100 50" stroke="gold" strokeWidth="2" fill="transparent"/>
                 </svg>
               </div>
             </div>
